@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kyara Beverages - Naturally Refreshing</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" role="banner" aria-label="Primary navigation">
+    <div class="nav-container">
+      <div class="nav-logo" tabindex="0">KYARA</div>
+      <nav class="primary-nav" role="navigation" aria-label="Desktop menu">
+        <a href="#about" tabindex="0">About</a>
+        <a href="#products" tabindex="0">Products</a>
+        <a href="#contact" tabindex="0">Contact</a>
+      </nav>
+      <button aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu" class="mobile-menu-button" id="mobile-menu-button" type="button">
+        <span class="material-icons">menu</span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile menu">
+      <a href="#about" tabindex="-1">About</a>
+      <a href="#products" tabindex="-1">Products</a>
+      <a href="#contact" tabindex="-1">Contact</a>
+    </nav>
+  </header>
+
+  <header class="hero-banner" aria-label="Kyara hero banner">
+    <div class="logo" aria-label="Kyara Beverages logo"></div>
+    <h1 tabindex="0">Refreshment, Reimagined</h1>
+    <div class="cube-container" aria-hidden="true">
+      <div class="cube" aria-label="Rotating cube with letters spelling Kyara B">
+        <div class="front" aria-hidden="true">K</div>
+        <div class="back" aria-hidden="true">Y</div>
+        <div class="right" aria-hidden="true">A</div>
+        <div class="left" aria-hidden="true">R</div>
+        <div class="top" aria-hidden="true">A</div>
+        <div class="bottom" aria-hidden="true">B</div>
+      </div>
+    </div>
+  </header>
+
+  <main role="main" class="container" aria-label="Main content">
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About Kyara Beverages</h2>
+      <p>
+        At Kyara Beverages, we’re reimagining refreshment with millet-based fruit drinks.
+        Rooted in tradition and powered by innovation, we craft drinks that are nutritious,
+        refreshing, and real—bringing authentic taste to every sip.
+      </p>
+    </section>
+
+    <section id="products" aria-labelledby="products-title">
+      <h2 id="products-title">Our Products</h2>
+      <div class="product-list">
+        <article class="product-card" tabindex="0" aria-label="Mango Millet Refresh drink">
+          <div class="product-image-container">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6554eef4-8269-4d9b-b4b0-669386959a87.png"
+              alt="Bottle of Mango Millet Refresh drink with yellow mango color and millet grains"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-content">
+            <h3 class="product-name">Mango Millet Refresh</h3>
+            <p class="product-desc">
+              A tropical mango-infused millet drink, combining sweetness and nutrition perfectly.
+            </p>
+          </div>
+        </article>
+        <article class="product-card" tabindex="0" aria-label="Berry Millet Splash drink">
+          <div class="product-image-container">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/40bdf4db-59a1-4d15-b2e0-f10330bb0293.png"
+              alt="Bottle of Berry Millet Splash drink with deep red berry color and millet grains"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-content">
+            <h3 class="product-name">Berry Millet Splash</h3>
+            <p class="product-desc">
+              A burst of juicy berries combined with millet for a refreshing antioxidant boost.
+            </p>
+          </div>
+        </article>
+        <article class="product-card" tabindex="0" aria-label="Citrus Millet Zest drink">
+          <div class="product-image-container">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3d8f0e5d-08ff-4639-9208-cacf5c7b1e59.png"
+              alt="Bottle of Citrus Millet Zest drink with citrus orange color and millet grains"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-content">
+            <h3 class="product-name">Citrus Millet Zest</h3>
+            <p class="product-desc">
+              A zesty citrus millet blend offering a vibrant and invigorating refreshment.
+            </p>
+          </div>
+        </article>
+        <article class="product-card" tabindex="0" aria-label="Pineapple Millet Breeze drink">
+          <div class="product-image-container">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/633bf0c6-4c9c-4483-a0ee-b894cf52d158.png"
+              alt="Bottle of Pineapple Millet Breeze drink with bright yellow pineapple color and millet grains"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-content">
+            <h3 class="product-name">Pineapple Millet Breeze</h3>
+            <p class="product-desc">
+              A tropical pineapple and millet blend for a fresh, breezy refreshment.
+            </p>
+          </div>
+        </article>
+        <article class="product-card" tabindex="0" aria-label="Guava Millet Glow drink">
+          <div class="product-image-container">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/60164759-f7d9-4c14-91f3-96b11d751489.png"
+              alt="Bottle of Guava Millet Glow drink with pink guava color and millet grains"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-content">
+            <h3 class="product-name">Guava Millet Glow</h3>
+            <p class="product-desc">
+              A glowing guava-infused millet drink that's vibrant and full of flavor.
+            </p>
+          </div>
+        </article>
+        <article class="product-card" tabindex="0" aria-label="Lemon Millet Shine drink">
+          <div class="product-image-container">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/cd42141c-0c43-44b0-bbef-dc792a25a257.png"
+              alt="Bottle of Lemon Millet Shine drink with bright lemon yellow color and millet grains"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-content">
+            <h3 class="product-name">Lemon Millet Shine</h3>
+            <p class="product-desc">
+              A sharp, citrusy millet drink with zesty lemon and a bright shine in every sip.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Get in Touch</h2>
+      <form aria-label="Contact Form" novalidate>
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder=" " required />
+          <label for="name">Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder=" " required />
+          <label for="email">Email</label>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" placeholder=" " required rows="5"></textarea>
+          <label for="message">Message</label>
+        </div>
+        <button type="submit" aria-label="Send message">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
